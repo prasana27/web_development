@@ -1,0 +1,27 @@
+p {
+    border: 1px solid black;
+    text-align: center;
+    padding: 30px;
+    margin: 5px;
+    background-color: rgb(247, 247, 247);
+}
+
+.wrapper {
+    display: flex;
+}
+
+article {
+    flex: 2;
+}
+
+aside {
+    flex: 1;
+}
+
+.box1{
+    padding: 200px 0px
+}
+
+.box2{
+    padding: 200px 0px
+}
