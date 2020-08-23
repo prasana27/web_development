@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Facts</title>
+        <link rel="stylesheet" href="facts.css" />
+        <link rel="stylesheet" href="icofont/icofont.min.css" />
+        <script defer src="facts.js"></script>
+        <script src="anime.min.js"></script>
+        
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <img onclick="window.location='home.html';" src="img/Mars.jpg" alt="Planet Mars" class="Mars">
+            </div>
+            <div class="nav_button">
+                <button class="quiz">QUIZ</button>
+                <button class="data_vis">DATA-VIS</button>
+                <button onclick="window.location='facts.html';" class="facts">FACTS</button>
+            </div>
+        </nav>
+        <h1>Facts</h1>
+        <div class="slideshow">
+            <button class="slide left"><i class="icofont-thin-left"></i></button>
+            <div class="fact">
+                <div class="fact image"></div>
+                <div class="fact title"></div>
+                <div class="fact info"></div>
+            </div>
+            <button class="slide right"><i class="icofont-thin-right"></i></button> 
+        </div>
+    </body>
+</html>

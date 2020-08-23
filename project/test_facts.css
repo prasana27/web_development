@@ -1,0 +1,147 @@
+body {
+    background-color: black;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.top-container{
+    background-color: black;
+    margin: -10px;
+    border-bottom: 0.5px solid rgb(100, 100, 100);
+}
+
+.top-bar{
+    margin: 0px 10px;
+}
+
+.top-bar nav{
+    display:inline-block;
+    position: absolute;
+    right: 20px;
+    margin: 6px;
+    top: 11px;
+}
+
+.top-bar button{
+    background-color: black;
+    padding: 10px 0px;
+    margin: 0px 10px;
+    text-decoration: none;
+    color: white;
+    border: 0.5px solid white;
+    transition-duration: 0.4s;
+    font-family: 'Exo 2', sans-serif;
+    width: 10em;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.top-bar button:hover {
+    background-color: white;
+    color: black;
+  }
+
+.top-bar .facts{
+    border-style: none none double none;
+}
+
+.top-bar .facts:hover{
+    opacity: 100%;
+}
+
+.Mars{
+    max-width: 4%;
+    margin: 5px 5px 0px 5px;
+    cursor: pointer;
+}
+
+.Mars:hover{
+    opacity: 75%;
+}
+
+h1 {
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 0px 0px 50px 0px;
+} 
+
+.container{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: auto;
+}
+
+.container .left{
+    width: 100px;
+    height: 100px;
+    margin: 200px 0px 300px -300px;
+    position: absolute;
+    font-size: 50px;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+.container .left:hover{
+    font-size: 60px;
+}
+
+.container .right:hover{
+    font-size: 60px;
+}
+
+.container .right{
+    width: 100px;
+    height: 100px;
+    margin: 200px 0px 300px 700px;
+    position: absolute;
+    font-size: 50px;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+.box{
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+    height: 500px;          
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.box .image{
+    width: 500px;
+    height: 500px;  
+    object-fit: cover;
+    border: 0.5px solid white;
+}
+
+.stack-top{
+    background-color: white;
+    z-index: 9;
+    height: 50px;
+    width: 200px;
+    margin: -20px;
+    font-size: 10px;
+    padding: 0px 10px;
+    text-align: center;
+    
+}
+
+.stack-bottom{
+    background-image: linear-gradient(135deg, rgba(0,0,0,1) 30%, rgba(74,74,74,1) 130%);
+    z-index: 9;
+    height: 100px;
+    margin: 450px 50px;
+    font-size: 14px;
+    padding: 0px 20px;
+    border: 0.5px solid white;
+    color: rgb(255, 255, 255);
+}

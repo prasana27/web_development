@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+
+.mars{
+    position: relative; 
+    margin: auto;
+    width: 50%;
+    padding: 100px;
+}
+
+.title{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    margin: 1000px 0px 0px -130px;
+    width: 130%;
+    animation: fadein 4s;   
+}
+
+.image{
+    max-width: 50%;
+    margin-left: 100px; 
+    animation-delay: 15s;
+    animation: fadein 25s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+

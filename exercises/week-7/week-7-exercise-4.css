@@ -1,0 +1,34 @@
+p {
+    margin: 0;
+}
+
+.planet {
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    margin: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.planet-name {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.planet-circumference,
+.planet-distance {
+    font-style: italic;
+}
+
+.planet-Earth {
+    background: green;
+}
+
+.hide {
+    display: none;
+}
